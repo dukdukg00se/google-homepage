@@ -1,0 +1,130 @@
+body {
+    height: 100%;
+    font-size: 14px;
+    min-width: 400px;
+    font-family: arial, sans-serif;
+    color: #222;
+    background: #fff;
+    display: block;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+  }
+  .nav-link {
+    padding: 5px;
+    margin: 0 5px;
+  }
+  .nav-link:first-of-type {
+    margin-left: 15px;
+  }
+  .header-b1 {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    font-size: 13px;
+  }
+  #images {
+    margin-right: 15px;
+  }
+  #google-app {
+    padding: 8px;
+    position: relative;
+    top: 1px;
+    height: 100%;
+    width: auto;
+  }
+  #app-image {
+    height: 24px;
+    width: 24px;
+    fill: #5f6368;
+  }
+  #sign-in {
+    padding: 9px 15px;
+    min-width: 80px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 8px;
+    border: 1px solid transparent;
+    font-family: Roboto, serif;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    background-color: #1a73e8;
+    text-align: center;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* font-weight set in head section */
+  }
+  #sign-in:hover {
+    background-color: #2b7de9;
+    box-shadow: 0 1px 3px 1px rgba(66, 133, 244, 0.15);
+  }
+  a {
+    color: #222;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  #logo-wrap {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 236px;
+  }  
+  #google-logo {
+    width: 272px;
+    height: 92px;
+  }
+  
+  #form {
+    display: block;
+    padding: 25px;
+  }
+  #mid-box {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    max-width: 584px;
+    min-width: 360px;
+    margin: auto;
+    padding: 5px 8px 0 14px;
+  }
+  #mid-box:hover {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28)
+  }
+  
+  #magnify {
+    fill: #9aa0a6;
+    padding: 0 13px 4px 0;
+  }
+  #text {
+    border: none;
+    padding-bottom: 4px;
+    margin-top: -4px;
+    width: 100%;
+    height: 34px;
+    font-size: 16px;
+    outline: none;/*removes border highlight after focus*/
+  }
+  
+  #voice {
+    padding: 0 8px;
+  }
+  
+  #buttons {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid red;
+  }
+  
