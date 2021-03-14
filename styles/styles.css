@@ -1,4 +1,4 @@
-body {
+body, html {
     height: 100%;
     font-size: 14px;
     min-width: 400px;
@@ -7,6 +7,7 @@ body {
     background: #fff;
     display: block;
   }
+  
   nav {
     display: flex;
     align-items: center;
@@ -61,6 +62,7 @@ body {
     background-color: #2b7de9;
     box-shadow: 0 1px 3px 1px rgba(66, 133, 244, 0.15);
   }
+  
   a {
     color: #222;
   }
@@ -102,10 +104,11 @@ body {
   #mid-box:hover {
     box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28)
   }
-  
   #magnify {
     fill: #9aa0a6;
     padding: 0 13px 4px 0;
+    width: 23px;
+    height: 23px;
   }
   #text {
     border: none;
@@ -116,15 +119,93 @@ body {
     font-size: 16px;
     outline: none;/*removes border highlight after focus*/
   }
-  
   #voice {
     padding: 0 8px;
   }
-  
-  #buttons {
+  #buttons-div {
     text-align: center;
     padding: 20px;
-    margin: 20px;
-    border: 1px solid red;
+    margin: 0 20px 20px;
+    white-space: nowrap;
   }
+  .buttons {
+    background: #f8f9fa;
+    box-sizing: border-box;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .buttons:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #dadce0;
+    color: #202124;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    padding: 20px 20px;
+    width: 100%;
+    min-width: 400px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer-link {
+    padding: 15px;
+    color: #70757A;
+  }
+  #footer-b1 {
+    white-space: nowrap;
+    order: 1;
+    min-width: 30%;
+  }
+  #leaf {
+    height: 14px;
+  }
+  #span {
+    vertical-align: top;
+  }
+  
+  #footer-b2 {
+    white-space: nowrap;
+    order: 2;
+    text-align: center;
+  }
+  #footer-b3 {
+    white-space: nowrap;
+    order: 3;
+    min-width: 30%;
+    text-align: right;
+  }
+  @media (max-width: 855px) {
+    #footer-b2 {
+      order: 0;
+      width: 100%;
+      padding: 0 0 30px;
+    }
+  }
+  @media (max-width: 634px) {
+    #footer-b1 {
+      width: 100%;
+      text-align: center;
+      padding: 0 0 30px;
+    }
+    #footer-b3 {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
+  
+  
   
